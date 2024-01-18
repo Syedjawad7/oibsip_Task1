@@ -1,0 +1,428 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(0, 0, 0) ;
+  font-family: sans-serif;
+  color: white;
+}
+.parentttt{
+  background-color: rgba(216, 214, 214, 0.333);
+  z-index: 1000;
+
+
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg"), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
+  opacity: 0.9;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logoimage img {
+  width: 120px;
+  padding-top: 20px;
+  padding-left: 180px;
+}
+#drop_signin {
+  padding-right: 180px;
+  padding-top: 20px;
+}
+#drop_signin #Lang {
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#drop_signin button {
+  height: 32px;
+  width: 70px;
+  border-radius: 4px;
+  background: rgb(229, 9, 20);
+  font-size: 14px;
+  border-color: rgb(229, 9, 20);
+  cursor: pointer;
+  border: none;
+}
+#drop_signin button a {
+  text-decoration: none;
+  color: white;
+}
+.content_h1_h2_h3 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.content_h1_h2_h3 h1{
+  
+  margin: 0;
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+}
+
+.content_h1_h2_h3 p {
+  margin: 16px 0px 0px;
+  font-size:24px;
+  font-weight: 400;
+}
+
+.content_h1_h2_h3 h3 {
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+
+.email111{
+  height: 56px;
+  width: 375.26px;
+  border-radius: 5px;
+  background-color: black;
+  font-size: 16px;
+  padding-left: 15px;
+  border-color: rgb(255, 255, 255);
+  border: none;
+  
+}
+.btn111{
+  width: 262.74px;
+  height: 59px;
+  border-radius: 5px;
+  background: rgb(229, 9, 20);
+  font-size: 18px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+
+}
+
+/* ---------------- section 1------------------- */
+.child1 {
+  background-color: black;
+  width: 1016;
+  height: 500.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  position: relative;
+  .contentchild1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     padding-left: 200px; 
+
+  }
+
+  img {
+    width: 551px;
+    height: 413.25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+  }
+  h2 {
+    color: white;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+  }
+  p {
+    font-family: sans-serif;
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: left;
+  }
+
+
+   .childimage2 .video {
+    position: relative;
+    bottom: 330px;
+    left: 100px;
+  }
+  .video #video{
+    object-fit: cover; 
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  } 
+}
+
+
+/* ----------------section2-------------------- */
+.child2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+
+  width: 1016;
+  height: 500.5px;
+  display: flex;
+  flex-direction: row;
+
+  h2 {
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    font: size 33px;
+    margin: 0;
+  }
+  p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-top: 15px;
+  }
+
+  #para {
+    display: flex;
+  }
+}
+.contentchild2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ----------------------section3--------------------- */
+.child3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+
+  width: 1016;
+  height: 500.5px;
+  display: flex;
+
+  img {
+    display: flex;
+    justify-content: end;
+    padding-left: 80px;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 0%;
+    font-size: 46px;
+    padding-bottom: 20px;
+  }
+  p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0%;
+    text-align: left;
+  }
+  .contentchild3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+  }
+}
+
+/* ----------------------------section4------------------------ */
+.child4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+
+  width: 1016;
+  height: 500.5px;
+  display: flex;
+  flex-direction: row;
+
+  img {
+    padding-right: 150px;
+  }
+
+  h2 {
+    color: white;
+    font-size: 46px;
+    font-weight: 800;
+    font: size 33px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0%;
+    text-align: left;
+
+  }
+  .contentchild4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+  }
+/* }
+ @media screen and (max-width:992px) {
+  body .child4 img{
+    width: 300px;
+    padding-top: 200px; 
+
+  }
+  body .contentchild4 
+  body .contentchild4 h2{
+    font-size: 21px;
+    text-align: center;
+  }
+  body .child4 br{
+    display: none;
+  } */
+  
+} 
+@media screen and (max-width:992px) {
+  body .question{
+    height:1000px ;
+
+  }
+  
+}
+
+  
+/* --------------------------------FAQ section------------------------------------ */
+.question {
+
+  background-color: black;
+  padding: 40px 150px 0;
+  height: 820px;
+}
+.question .question-head {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.question .question-subject {
+  padding-left: 25px;
+  background-color: rgb(65, 65, 65);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0;
+}
+.question .question-subject:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+#subject-sym {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.para_email p {
+  padding-top: 40px;
+  text-align: center;
+}
+.question .email_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 2000px;
+}
+.email22 {
+  display: flex;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 13px;
+  background-color: black;
+  color: white;
+}
+.btn22 {
+  border-radius: 5px;
+  height: 55px;
+  width: 200px;
+  font-size: 22px;
+  background-color: red;
+}
+.btn22 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* -----------------footer------------- */
+.footer {
+
+  background-color: black;
+  height: 400px;
+}
+
+.question__ {
+  text-align:start;
+  position: relative;
+  left: 150px;
+  top :10px;
+  width: 50%;
+
+
+}
+.question__ a {
+  color: #fff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 150px;
+  padding-top: 12px;
+  gap: 20px;
+  font-size: 15px;
+}
+.grid a {
+  color: white;
+}
+
+.dropdown {
+  padding-left: 150px;
+  padding-top: 12px;
+}
+option {
+  text-align: center;
+}
+#dd {
+  width: 120px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.netflixname p {
+  text-align: left;
+  padding-left: 150px;
+  font-size: 14px;
+  padding-top: 10px;
+}

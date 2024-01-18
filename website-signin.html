@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="https://www.netflix.com/in/favicon.ico/" type="image/x-icon">
+    <style>
+        body{
+            font-family: sans-serif;
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+            background-repeat: no-repeat;
+            background-color: black;
+            
+
+            color: white;
+        }
+        .child{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            width: 100%;
+          
+
+        }
+        .logo img{
+          
+            width: 150px;
+            padding-left: 50px;
+            padding-top: 20px;
+        }
+        .emailform{
+            /* background-color: black; */
+            background-color: rgba(0,0,0,.75);
+            box-sizing: border-box;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 80px 150px;
+            border: 2px solid  rgba(0,0,0,.75) ;
+            margin-bottom: 400px;
+            z-index: 1000000px;
+
+        }
+        .signin{
+            text-align: left;
+            color: white;
+        }
+        #email{
+            width: 315px;
+            height: 50px;
+            border-radius: 5px;
+            color: white;
+            background-color: #333;
+            border: none;
+
+        }
+        #password{
+            width: 315px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            border: none;
+
+
+
+
+
+        }
+        #Signin {
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            background: #e50914;
+            border-color: #e50914;
+            margin-top: 30px;
+            border: none;
+            cursor: pointer;
+
+        }
+        #Signin a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+        }
+        .bottom a{
+            color: white;
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+        }
+
+        .parentofRem_need{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 145px;
+
+        }
+        .bottom{
+            margin-top: 30px;
+            padding-right: 40px;
+        }
+        .listofgrid ul  {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            font-size: 13px;
+        }
+        .listofgrid ul a{
+            text-decoration: none;
+
+            color: white;
+        }
+        .listofgrid ul li a:hover{
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+
+
+        }
+        .dropdown select{
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            background-color:rgba(0,0,0,.75);
+            color: white;
+        }
+        .child2 p a{
+            color: white;
+        }
+        .parent2{
+            background-color: rgba(0,0,0,.75);
+            box-sizing: border-box;
+            border-radius: 4px;
+            border: 2px solid  rgba(0,0,0,.75) ;
+            height: 300px;
+            position: relative;
+            bottom: 325px;
+            width: 105%;
+            padding-left: 200px;
+
+         
+        }
+        .child{
+            height: 100vh;
+        }
+        .parent2{
+            margin-bottom: 20px;
+        }
+      
+
+    </style>
+</head>
+<body>
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <div class="child">
+            <div class="emailform">
+                <div class="signin" style=" padding-right: 220px; " ><h1 style="font-weight: 500;">Sign In</h1></div>
+                <form action="" class="form">
+                    <input type="email" placeholder="Email" name="email" id="email"> <br>
+                    <input type="password" placeholder="Password" name="password" id="password"> <br>
+                    <button type="submit" id="Signin"><a href="">Sign In</a></button>
+                </form>
+
+                <div class="parentofRem_need">
+                <div class="remember_needhelp">
+                    <input type="checkbox" name="checkbox" id="checkbox" >
+                    <span style="color: white; font-size: 13px;">Remember me</span>
+                    
+                </div>
+                <div class="needhelp"><p style="color: white; font-size: 13px;">
+                    Need help?
+                    </p></div>
+                </div>
+                <div class="bottom">
+                    <p style="font-size: 16px; text-align: start;">New to Netflix? <a href="#">Sign up now</a></p>
+                    <p style="font-size: 13px; text-align:start">
+                        This page is protected by Google reCAPTCHA to <br>
+                         ensure you're not a bot. <a href="">Learn more.</a>
+                    </p>
+                </div>
+            
+            </div>
+            
+
+    <div class="parent2">
+        <div class="child2">
+            <p style="padding-left: 40px;">Questions? Call <a href="tel:+000-8000-919-1694">000-8000-919-1694</a></p>
+            <div class="listofgrid">
+                <ul type="none">
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Help Centre</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="">Corporate Information</a></li>
+    
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown" style="padding-left: 40px;">
+            <select  name="English" id="Language">
+                <option value="en">
+                    English
+                </option>
+                <option value="hi">हिन्दी</option>
+            </select>
+        </div>
+    </div>
+        
+
+   </div>
+
+</div>
+
+    
+</body>
+</html>
