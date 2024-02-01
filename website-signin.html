@@ -156,7 +156,10 @@
         .parent2{
             margin-bottom: 20px;
         }
-      
+     /* #form  .label_email{
+        visibility: hidden;
+        display: none;
+      } */
 
     </style>
 </head>
@@ -165,10 +168,11 @@
         <div class="child">
             <div class="emailform">
                 <div class="signin" style=" padding-right: 220px; " ><h1 style="font-weight: 500;">Sign In</h1></div>
-                <form action="" class="form">
-                    <input type="email" placeholder="Email" name="email" id="email"> <br>
-                    <input type="password" placeholder="Password" name="password" id="password"> <br>
-                    <button type="submit" id="Signin"><a href="">Sign In</a></button>
+                <form id="form" onsubmit="return validate()" action=""  class="form">
+                    <input type="text" placeholder="Email" value="email"  id="email"> <br>
+                    <label for="" id="label_email" style="visibility: hidden;">Invalid Email</label>
+                    <input type="password" placeholder="Password"  value="password" required id="password"> <br>
+                    <button  type="submit" id="Signin"><a href="">Sign In</a></button>
                 </form>
 
                 <div class="parentofRem_need">
@@ -222,6 +226,7 @@
    </div>
 
 </div>
+<script src="signin.js"></script>
 
     
 </body>
